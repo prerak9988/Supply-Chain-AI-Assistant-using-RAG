@@ -1,8 +1,8 @@
 import streamlit as st
 import tempfile
-from backend.pdf_processing import extract_text_from_pdf, chunk_text
-from backend.vector_store import store_in_chroma
-from backend.query_engine import ask_question
+from pdf_processing import extract_text_from_pdf, chunk_text
+from vector_store import store_in_chroma
+from query_engine import ask_question
 
 st.title("📦 Supply Chain AI Assistant")
 
